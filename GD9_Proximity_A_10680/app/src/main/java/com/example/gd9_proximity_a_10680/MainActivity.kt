@@ -14,8 +14,6 @@ class MainActivity : AppCompatActivity() {
     // on below line we ape creating
 // a variable for our text view.
     lateinit var sensorStatusTV: TextView
-    // on below line we are creating
-// a variable for our proximity sensor
     lateinit var proximitySensor: Sensor
     lateinit var sensorManager: SensorManager
     var proximitySensorEventListener: SensorEventListener? = object : SensorEventListener {
